@@ -15,8 +15,8 @@ To treat these special URL, we might register a specific protocol handler "msie:
 
 | Original               | Changed to                  |
 |------------------------|-----------------------------|
-| http://www.google.com  | msie:http://www.google.com  |
-| https://www.google.com | msie:https://www.google.com |
+| http://www.google.com  | `msie:http://www.google.com`  |
+| https://www.google.com | `msie:https://www.google.com`  |
 
 >
 Notice: this way only works for Windows system only!!
