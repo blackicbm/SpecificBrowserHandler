@@ -9,5 +9,5 @@
 [HKEY_CLASSES_ROOT\msie\Shell\Open]
 
 [HKEY_CLASSES_ROOT\msie\Shell\Open\Command]
-@="cmd /v:on /c set arg=%1 & set arg=!arg:~5! & start \"TempTitle\" \"!ProgramFiles!\\Internet Explorer\\iexplore.exe\" \"!arg!\""
+@="cmd /v:on /c set arg=%1 & set arg=!arg:~5! & \"!ProgramFiles!\\Internet Explorer\\iexplore.exe\" \"!arg!\""
 
